@@ -6,14 +6,14 @@ const contactLinks = [
     icon: Mail,
     title: 'Email',
     subtitle: 'paula_romero@brown.edu',
-    href: 'mailto:paula_romero@brown.edu',
+    href: 'mailto:paularomero2511@gmail.co ',
     color: '#A8D8EA'
   },
   {
     icon: Linkedin,
     title: 'LinkedIn',
     subtitle: 'Connect with me',
-    href: 'https://www.linkedin.com/in/paularomero',
+    href: 'https://www.linkedin.com/in/paularomero23',
     color: '#3D2817'
   },
   {
