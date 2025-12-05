@@ -44,7 +44,7 @@ export default function App() {
             </p>
           </div>
         </footer>
-        <div style={{ height: '75' }}></div>
+        <div style={{ height: '75px' }}></div>
       </div>
     </div>
   );

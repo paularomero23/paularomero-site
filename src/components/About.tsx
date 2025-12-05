@@ -106,7 +106,7 @@ export function About() {
                 care, the intention,{" "}
                 <span className="relative inline-block group font-semibold underline cursor-help">
                   los detallitos
-                  <span className="absolute left-1/2 -translate-x-1/2 -top-8 bg-[#3D2817] text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                  <span className="absolute left-1/2 -translate-x-1/2 -top-8 md:-top-8 -top-12 bg-[#3D2817] text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
                     the details ⊹ ࣪ ˖
                   </span>
                 </span>{" "}
