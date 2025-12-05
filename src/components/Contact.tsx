@@ -27,16 +27,17 @@ const contactLinks = [
 
 export function Contact() {
   return (
-    <section id="find-me" className="py-16 md:py-32 px-4 md:px-6 max-w-7xl mx-auto">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
-      >
+    <section id="find-me" className="pt-32 md:pt-48">
+      <div className="px-6 max-w-7xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
         <div className="text-center max-w-3xl mx-auto">
           <motion.h2 
-            className="text-4xl sm:text-5xl md:text-6xl mb-6" 
+            className="text-5xl md:text-6xl mb-6" 
             style={{ fontFamily: '"Instrument Sans", sans-serif', fontWeight: 440, letterSpacing: '-3px' }}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -95,20 +96,9 @@ export function Contact() {
             })}
           </div>
 
-          {/* Footer */}
-          <motion.div 
-            className="pt-16 border-t border-black/10"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.8 }}
-          >
-            <p className="text-sm text-black/50">
-              © 2025 Paula Romero • Designed & built with care :D
-            </p>
-          </motion.div>
         </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </section>
   );
 }

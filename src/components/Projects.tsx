@@ -30,7 +30,7 @@ interface ProjectsProps {
 
 export function Projects({ onProjectClick }: ProjectsProps) {
   return (
-    <section id="work" className="py-16 md:py-32 px-4 md:px-6 max-w-7xl mx-auto">
+    <section id="work" className="py-24 md:py-40 px-6 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -38,13 +38,13 @@ export function Projects({ onProjectClick }: ProjectsProps) {
         viewport={{ once: true }}
       >
         <motion.div 
-          className="mb-16"
+          className="mb-16 text-center md:text-left"
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
           <h2 
-            className="text-4xl sm:text-5xl md:text-6xl mb-4" 
+            className="text-5xl md:text-6xl mb-4" 
             style={{ fontFamily: '"Instrument Sans", sans-serif', fontWeight: 440, letterSpacing: '-3px' }}
           >
             Selected Works

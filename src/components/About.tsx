@@ -10,7 +10,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="py-16 md:py-32 px-4 md:px-6 max-w-7xl mx-auto"
+      className="pt-32 pb-24 md:pt-48 md:pb-40 px-6 max-w-7xl mx-auto"
     >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -18,10 +18,10 @@ export function About() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-16 items-center text-center md:text-left">
           {/* Left side - Photo with hover effect */}
           <motion.div
-            className="w-full max-w-[340px] sm:max-w-[400px] md:w-[500px] aspect-square mx-auto rounded-3xl relative overflow-hidden cursor-pointer group"
+            className="w-full max-w-[350px] md:max-w-[500px] aspect-square mx-auto rounded-3xl relative overflow-hidden cursor-pointer group"
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -67,11 +67,11 @@ export function About() {
               transition={{ duration: 0.8 }}
             >
               <h2
-                className="text-4xl sm:text-5xl md:text-6xl mb-4"
+                className="text-5xl md:text-6xl mb-4"
                 style={{
                   fontFamily: '"Instrument Sans", sans-serif',
                   fontWeight: 440,
-                  letterSpacing: "-2px",
+                  letterSpacing: "-3px",
                 }}
               >
                 About Me

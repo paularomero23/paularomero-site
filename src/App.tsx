@@ -36,6 +36,15 @@ export default function App() {
         />
         <About />
         <Contact />
+        {/* Footer */}
+        <footer className="pt-16 px-6 text-center border-t border-black/10 mb-96">
+          <div className="max-w-7xl mx-auto">
+            <p className="text-sm text-black/50">
+              © 2025 Paula Romero • Designed & built with care :D
+            </p>
+          </div>
+        </footer>
+        <div style={{ height: '75' }}></div>
       </div>
     </div>
   );
