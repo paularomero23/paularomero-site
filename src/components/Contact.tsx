@@ -5,8 +5,8 @@ const contactLinks = [
   {
     icon: Mail,
     title: 'Email',
-    subtitle: 'paula_romero@brown.edu',
-    href: 'mailto:paularomero2511@gmail.co ',
+    subtitle: 'paularomero2511@gmail.com',
+    href: 'mailto:paularomero2511@gmail.com',
     color: '#A8D8EA'
   },
   {
@@ -27,7 +27,7 @@ const contactLinks = [
 
 export function Contact() {
   return (
-    <section id="find-me" className="py-32 px-6 max-w-7xl mx-auto">
+    <section id="find-me" className="py-16 md:py-32 px-4 md:px-6 max-w-7xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ export function Contact() {
       >
         <div className="text-center max-w-3xl mx-auto">
           <motion.h2 
-            className="text-5xl md:text-6xl mb-6" 
+            className="text-4xl sm:text-5xl md:text-6xl mb-6" 
             style={{ fontFamily: '"Instrument Sans", sans-serif', fontWeight: 440, letterSpacing: '-3px' }}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
